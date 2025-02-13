@@ -16,7 +16,7 @@ const Register = () => {
     const [password, setPassword] = useState('')
     const navigate = useNavigate()
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = 'https://therapeer-backend.onrender.com'
 
     const onSubmitHandler = async (event) => {
         event.preventDefault()
