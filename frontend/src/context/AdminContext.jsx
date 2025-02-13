@@ -8,7 +8,7 @@ const AdminContextProvider = (props) => {
     const [aToken,setAToken] = useState(localStorage.getItem('aToken') ? localStorage.getItem('aToken') : '')
     const [therapists,setTherapists] = useState([])
     const [appointments, setAppointments] = useState([])
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = 'https://therapeer-backend.onrender.com'
     const [dashData, setDashData] = useState(false)
 
 
