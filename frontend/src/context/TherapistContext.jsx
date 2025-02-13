@@ -5,7 +5,7 @@ import {toast} from 'react-toastify'
 export const TherapistContext = createContext()
 
 const TherapistContextProvider = (props) => {
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = 'https://therapeer-backend.onrender.com'
     
     const [tToken,setTToken] = useState(localStorage.getItem('tToken') ? localStorage.getItem('tToken') : '')
     const [appointments, setAppointments] = useState([])
