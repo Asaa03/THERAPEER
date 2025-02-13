@@ -30,7 +30,7 @@ const Home = () => {
               <p className="text-gray-600 mt-2">Book therapy sessions in minutes.</p>
             </div>
             <div className="bg-white shadow-lg p-6 rounded-lg">
-              <h3 className="text-xl font-semibold">Public Chatrooms</h3>
+              <h3 className="text-xl font-semibold">Private Session</h3>
               <p className="text-gray-600 mt-2">One-on-one secure therapy with professionals</p>
             </div>
           </div>
