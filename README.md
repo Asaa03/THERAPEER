@@ -64,7 +64,7 @@ Therapeer is an online mental health therapy platform designed to provide access
 VITE_BACKEND_URL=http://localhost:5001
 ```
 
-- Update backendUrl in AppContext.jsx AdminContext.jsx TherapistContext.jsx and Login.jsx to
+- Update backendUrl in AppContext.jsx, AdminContext.jsx, TherapistContext.jsx, and Login.jsx to
 ```bash
 backendUrl = 'http://localhost:5001'
 ```
