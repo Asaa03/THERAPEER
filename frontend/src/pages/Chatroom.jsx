@@ -20,8 +20,6 @@ const ChatroomTherapist = () => {
       const response = await axios.get(backendUrl + '/api/chatroom/messages', { headers: { token } })
       if (response.data) {
         setMessages(response.data)
-      } else {
-        toast.error(response.message)
       }
     } catch (error) {
       toast.error(error.message)

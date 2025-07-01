@@ -57,7 +57,7 @@ const getMessages = async (req, res) => {
   try {
     const chatroom = await chatroomModel.findOne()
     if (!chatroom) {
-      return res.status(404).json({ message: "Chatroom not found" })
+      return res.status(200).json([])
     }
 
     res.json(chatroom.messages)
