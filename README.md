@@ -1,4 +1,4 @@
-THERAPEER
+#THERAPEER
 ![project-image](./frontend/src/assets/image.png)
 
 Therapeer is an online mental health therapy platform designed to provide accessible affordable and effective therapy services. It connects users with professional therapists for private text-based sessions public chatrooms and appointment booking. This project is for individuals seeking mental health support and administrators or therapists managing therapy services online
