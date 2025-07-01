@@ -70,7 +70,7 @@ backendUrl = 'http://localhost:5001'
 ```
 
 - Create `.env` file inside the  **main folder** i.e THERAPEER and write following things:
-``bash
+```bash
 PORT=5001
 MONGODB_URI='YOUR_MONGODB_URI' 
 CLOUDINARY_NAME='YOUR_CLOUDINARY_NAME' 
@@ -79,18 +79,18 @@ CLOUDINARY_SECRET_KEY='CLOUDINARY_SECRET_KEY'
 ADMIN_EMAIL='WRITE EMAIL FOR ADMIN LOGIN' 
 ADMIN_PASSWORD='ADMIN PASSWORD' 
 JWT_SECRET='minor2'
-``
+```
+---
 
 ## 💻 Built with
-``bash
+```bash
 Frontend: React Tailwind CSS
 Backend: Node.js Express.js MongoDB
 Auth: JWT
 Media Storage: Cloudinary
-``
+```
 ---
 
 ## 🍰 Contribution Guidelines
-``bash
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-``
