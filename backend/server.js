@@ -20,18 +20,25 @@ const app = express()
 const port = process.env.PORT || 5001
 
 const server = http.createServer(app)
+
+app.use(express.json())
+app.use(cors({
+  origin: 'https://therapeer-frontend.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}))
+
 const io = new Server(server, {
   cors: {
-    origin: "https://therapeer-frontend.onrender.com/", 
+    origin: "https://therapeer-frontend.onrender.com",
     methods: ["GET", "POST"]
   }
 })
 
+
 connectDB()
 connectCloudinary()
 
-app.use(express.json())
-app.use(cors())
 
 app.use('/api/admin', adminRouter)
 app.use('/api/therapist', therapistRouter)
